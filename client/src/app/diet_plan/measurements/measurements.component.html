@@ -1,0 +1,61 @@
+<app-navbar></app-navbar>
+<section class="page_slider">
+    <div class=" flexslider " data-nav="true" data-dots="false">
+        <ul class="slides">
+            <li class="ds text-center">
+                <span class="flexslider-overlay"></span>
+                <img src="../../../assets/images/slide03.jpg" alt="">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="intro_layers_wrapper">
+                                <div class="intro_layers">
+                                    <div class="d-inline-block">
+                                        <h2 class="intro_featured_word">
+                                            MEASUREMENTS
+                                        </h2>
+                                    </div>
+
+                                    <div class="intro_layers flex-btn" data-animation="fadeInUp">
+                                        <div class="col-md-6 col-lg-4 animate" data-animation="fadeInUp">
+                                            <div class="woocommerce-billing-fields__field-wrapper">
+                                                
+                                                <p class="form-row form-row-wide">
+                                                    <label for="billing_company">Age</label>
+                                                    <input type="text" class="input-text" placeholder="Age" autocomplete="organization" #age>
+                                                </p>
+                                                <p class="form-row form-row-wide">
+                                                    <label for="billing_company">Height(cm)</label>
+                                                    <input type="text" class="input-text" id="height" placeholder="Height(cm)" autocomplete="organization" #height>
+                                                </p>
+                                                <p class="form-row form-row-wide">
+                                                    <label for="billing_company">Weight(kg)</label>
+                                                    <input type="text" class="input-text" id="weight" placeholder="Weight(kg)" autocomplete="organization" #weight>
+                                                </p>
+                                                <p class="form-row form-row-wide">
+                                                    <label for="billing_company">Target Weight(kg)</label>
+                                                    <input type="text" class="input-text" id="target_weight" placeholder="Target Weight(kg)" autocomplete="organization" #target_weight>
+                                                </p>
+                                            
+                                            </div>
+                                            <br>
+                                            <a href="/9" class="btn btn-light" (click)="setProfile()">Continue</a>
+                                                
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <!-- eof .intro_layers -->
+                            </div>
+                            <!-- eof .intro_layers_wrapper -->
+                        </div>
+                        <!-- eof .col-* -->
+                    </div>
+                    <!-- eof .row -->
+                </div>
+                <!-- eof .container-fluid -->
+            </li>
+        </ul>
+    </div>
+</section>
+<app-footer></app-footer>
