@@ -20,6 +20,6 @@
         "sass-loader": "^7.1.0"
     },
     "dependencies": {
-        "jspdf": "^1.5.3"
+        "jspdf": "^2.5.1"
     }
 }
